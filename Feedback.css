@@ -1,0 +1,74 @@
+body{
+    background-image: url(Feedback.jpg);
+}
+.form{
+    padding-left: 30%;
+    font-size:large;
+    
+}
+#form1{
+    
+    padding-top: 10px;
+	padding-right: 80px;
+    margin: auto;
+    background-color: #F5F5F5;
+    width: 600px;
+    height:700px
+}
+span{
+    font-family:'Times New Roman', Times, serif;
+}
+
+        textarea {
+            width: 300px; 
+            height: 100px; 
+            border-radius: 15px; 
+            padding: 10px; 
+            border: 2px solid #042535; 
+            font-size: 16px; 
+            font-family: Arial, sans-serif; 
+        }
+	
+    /*For submit button */
+	 
+        input[type="submit"] {
+            width: 200px; 
+            height: 30px; 
+            border-radius: 10px; 
+            background-color: D9D9D9; 
+            color: #042535; 
+            font-size: 16px; 
+            cursor: pointer; 
+            border: 2px solid #042535; 
+        }
+
+        input[type="submit"]:hover {
+            background-color: #27607B; 
+        }
+		
+        
+        input[type="text"] {
+            width: 300px;        
+            height: 40px;        
+            border-radius: 10px; 
+            padding: 10px;       
+            border: 2px solid #042535; 
+            font-size: 16px;     
+			background-color: #D9D9D9;
+            
+        }
+
+        input[type="email"] {
+            width: 300px; 
+            height: 40px; 
+            border-radius: 10px; 
+            padding: 10px; 
+            border: 2px solid #042535; 
+            font-size: 16px; 
+        }
+
+        input[type="email"]:focus {
+            border-color: #1e3a3a; /* Change border color on focus */
+            outline: none; /* Remove outline on focus */
+			
+        }

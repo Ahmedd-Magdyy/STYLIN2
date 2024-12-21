@@ -1,0 +1,46 @@
+<html>
+<header>
+    <link rel="stylesheet" href="feedback.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+</header>
+<body>
+    <div id="form1">
+    <center><h1 style = "padding-left : 80px";>FeedBack Form</h1></center>
+    <center><h3 style = "padding-left : 80px";>It only take's two minutes</h3></center>
+   <form id="form2" method = "post" action = "Thanks_for_feedback.html">
+    <div class="form">
+   
+         <!-- For Name field -->
+        
+        <span><img src="personal.jpg" width="25px" height="25px" style="color: #D9D9D9;"> </span>
+        <span style="font-size: x-large; color: #042535;">Name </span> <br>      
+		<input type="text" required> <br> <br>
+		
+	    <!-- For Mail-Address field -->
+       
+        <span><i class="fa-regular fa-envelope" style="font-size: x-large; color: #D9D9D9;"></i></span>
+        <span style="font-size: x-large; color: #042535;"> Email Address </span> <br>
+       <input style = "background-color: #D9D9D9;" type="email" required> <br> <br>
+	   
+	    <!-- For Phone-Number field -->
+       <span ><i class="fa-solid fa-phone" style="color:#D9D9D9; font-size: x-large;"></i> </span>
+       <span  style="font-size: x-large; color: #042535;"> Phone Number </span> <br>
+       <input type="text"> <br> <br>
+	   
+        <!-- For Satisfaction -->
+      <span > <i class="fa-regular fa-face-smile" style="color: #D9D9D9; font-size: x-large;"></i> </span> 
+      <span  style="font-size: x-large; color: #042535;"> Do you satisfy with our services ? </span> <br><br>
+	 
+      <input type="radio" name="satisfaction" value="Yes" required  > Yes
+      <input type="radio" name="satisfaction" value="No" required  > No <br><br>
+	  
+       <!-- For Suggestion -->
+      <span> <i class="fa-solid fa-file"  style="color: #D9D9D9; font-size: x-large;"></i> </span>
+     <span style="font-size: x-large; color: #042535;"> Write your suggestion: </span> <br> <br>
+     <textarea  style = "background-color: #D9D9D9;" placeholder="If No tell us why to improve our services" ></textarea> <br> <br>
+
+     <form method = "post" action = "Thanks_for_feedback.html"><div style="padding-left: 50px;" ><input type="submit" value="Submit" > </div></form>
+     
+    </div></form></div>
+</body>
+</html>
